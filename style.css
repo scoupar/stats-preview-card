@@ -26,8 +26,9 @@ h3 {
   display: flex;
   flex-direction: row;
   margin-top: 25vh;
-  width: 75%;
-  justify-self: center;
+  width: 80%;
+  margin-left: 10vw;
+  margin-right: 10vw;
 }
 
 .text-container {
@@ -35,6 +36,7 @@ h3 {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  width: 50%;
 }
 
 .stats-container {
@@ -65,18 +67,36 @@ span {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 99.5%;
   background-color: hsl(277, 64%, 61%);
-  opacity: 30%;
+  opacity: 65%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .wrap img {
   width: 100%;
-  filter: brightness(65%);
-  filter: saturate(10%);
+  filter: brightness(3%);
+  filter: saturate(100%);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 /* .main-image {
   filter: hue-rotate(45deg);
   border-radius: 10px;
 } */
+
+h1,
+p {
+  width: 60%;
+  margin-left: 5rem;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+.attribution {
+  margin: 1rem 2rem;
+}
