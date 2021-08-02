@@ -78,6 +78,7 @@ span {
   width: 100%;
   filter: brightness(3%);
   filter: saturate(100%);
+  filter: contrast(75%);
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
 }
@@ -99,4 +100,16 @@ h3 {
 
 .attribution {
   margin: 1rem 2rem;
+}
+
+@media (max-width: 900px) {
+  .main-container {
+    margin-left: 50vw;
+    margin-right: 50vw;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .text-container {
+    justify-content: center;
+  }
 }
